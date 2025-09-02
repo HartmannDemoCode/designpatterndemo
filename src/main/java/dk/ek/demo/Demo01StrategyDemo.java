@@ -16,7 +16,7 @@ package dk.ek.demo;
  * where each character type would have its own attack strategy class.
  * So we need to implement:
  * 1: Strategy interface → AttackStrategy { void attack(String name); }
- * 2: Concrete strategies → SwordAttack, MagicAttack, BowAttack.
+ * 2: Concrete strategies → SwordAttack, MagicAttack, BowAttack that implements the interface.
  * 3: Context class → GameCharacter uses an AttackStrategy.
  * 4: Result → No if-else mess, adding new attacks is easy.
  */

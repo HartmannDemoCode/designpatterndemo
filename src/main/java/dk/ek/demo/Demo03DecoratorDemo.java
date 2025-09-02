@@ -1,6 +1,14 @@
 package dk.ek.demo;
 
-// Base character
+/**
+ * Demonstrates the Decorator Pattern by showing how subclassing to add features
+ * can lead to a combinatorial explosion of classes.
+ * We get the following issues:
+ * 1. Class explosion: Each combination of features requires a new subclass.
+ * 2. Rigid hierarchy: Inflexible to add/remove features at runtime.
+ * 3. Code duplication: Shared logic may be duplicated across subclasses.
+ * 4. Maintenance nightmare: Changes require touching many classes.
+ */
 public class Demo03DecoratorDemo {
 
     public static void main(String[] args) {
@@ -12,6 +20,7 @@ public class Demo03DecoratorDemo {
         System.out.println(armoredHero.getDescription() + " Power: " + armoredHero.getPower());
     }
 
+    // Base character
     private static class BasicCharacter {
         private String name;
 
