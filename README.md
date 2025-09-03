@@ -1,4 +1,9 @@
 # Exercise for 2. sem students at EK
+
+## Design Principles: SOLID
+- Read this article to understand the SOLID principles: [SOLID Principles Explained](https://2semfall2025.kursusmaterialer.dk/toolbox/designpatterns/solid/)
+- Follow the instructions in each of the 5 files in the `solid` package to refactor the code to adhere to the SOLID principles (src.main.java.dk.ek.exercises.solid)
+ 
 ## Design patterns: Strategy, Factory and Decorator
 
 - You are given three pieces of poorly designed game code. Your task is to refactor each into a cleaner, extensible implementation using the correct design pattern.
@@ -61,7 +66,7 @@ if ("WARRIOR".equalsIgnoreCase(type)) {
 - Provided “bad code” to refactor:
 - Subclassing to add features:
 ```java
-class StrongCharacter extends BasicCharacter { ... }
+class StrongCharacter extends BasicCharacter  { ... }
 class ArmoredCharacter extends BasicCharacter { ... }
 ```
 - Leads to class explosion (StrongArmoredCharacter, MagicStrongArmoredCharacter, etc.)

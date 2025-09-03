@@ -1,6 +1,4 @@
-package dk.ek.demo.decoratorsolution;
-
-import dk.ek.demo.strategydemosolution.GameCharacter;
+package dk.ek.exercises.decoratorsolution;
 
 public class ArmoredDecorator extends CharacterDecorator {
     public ArmoredDecorator(IGameCharacter character) {

@@ -1,4 +1,4 @@
-package dk.ek.demo.decoratorsolution;
+package dk.ek.exercises.decoratorsolution;
 
 public interface IGameCharacter {
     String getDescription();

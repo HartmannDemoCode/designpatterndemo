@@ -1,4 +1,4 @@
-package dk.ek.demo;
+package dk.ek.exercises;
 
 /**
  * Strategy Pattern Demo without using the Strategy Pattern

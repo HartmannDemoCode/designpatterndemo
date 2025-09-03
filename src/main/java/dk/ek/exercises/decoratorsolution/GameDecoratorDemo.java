@@ -1,7 +1,5 @@
-package dk.ek.demo.decoratorsolution;
+package dk.ek.exercises.decoratorsolution;
 
-
-import dk.ek.demo.strategydemosolution.GameCharacter;
 
 public class GameDecoratorDemo {
     public static void main(String[] args) {

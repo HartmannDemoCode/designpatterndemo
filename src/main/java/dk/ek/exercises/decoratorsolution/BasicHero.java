@@ -1,4 +1,4 @@
-package dk.ek.demo.decoratorsolution;
+package dk.ek.exercises.decoratorsolution;
 
 public class BasicHero implements IGameCharacter{
     private String name;

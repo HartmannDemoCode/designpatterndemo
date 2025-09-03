@@ -1,4 +1,4 @@
-package dk.ek.demo;
+package dk.ek.exercises;
 
 /**
  * Demonstrates the Decorator Pattern by showing how subclassing to add features

@@ -1,9 +1,9 @@
-package dk.ek.demo;
+package dk.ek.exercises;
 
-import dk.ek.demo.strategydemosolution.BowAttack;
-import dk.ek.demo.strategydemosolution.GameCharacter;
-import dk.ek.demo.strategydemosolution.MagicAttack;
-import dk.ek.demo.strategydemosolution.SwordAttack;
+import dk.ek.exercises.strategydemosolution.BowAttack;
+import dk.ek.exercises.strategydemosolution.GameCharacter;
+import dk.ek.exercises.strategydemosolution.MagicAttack;
+import dk.ek.exercises.strategydemosolution.SwordAttack;
 
 /**
  * This demo illustrates the drawbacks of not using the Factory Pattern.
