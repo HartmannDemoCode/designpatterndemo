@@ -1,4 +1,7 @@
-package dk.ek.exercises;
+package dk.ek.exercises.factorydemo;
+
+import dk.ek.exercises.factorydemo.BowAttack;
+import dk.ek.exercises.factorydemo.GameCharacter;
 
 public class GameDemo {
     public static void main(String[] args) {

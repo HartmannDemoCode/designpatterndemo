@@ -1,4 +1,4 @@
-package dk.ek.exercises;
+package dk.ek.exercises.factorydemo;
 
 public class GameCharacter {
     private String name;

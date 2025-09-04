@@ -1,6 +1,11 @@
 package dk.ek.exercises;
 
 
+import dk.ek.exercises.factorydemo.BowAttack;
+import dk.ek.exercises.factorydemo.GameCharacter;
+import dk.ek.exercises.factorydemo.MagicAttack;
+import dk.ek.exercises.factorydemo.SwordAttack;
+
 /**
  * This demo illustrates the drawbacks of not using the Factory Pattern.
  * We get the following issues in the code below:

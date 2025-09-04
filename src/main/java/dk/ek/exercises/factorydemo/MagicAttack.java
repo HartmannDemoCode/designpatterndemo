@@ -1,4 +1,6 @@
-package dk.ek.exercises;
+package dk.ek.exercises.factorydemo;
+
+import dk.ek.exercises.factorydemo.IAttackStrategy;
 
 public class MagicAttack implements IAttackStrategy {
     @Override
